@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.0.0/dist/model-viewer.min.js"></script>
     <title>Mon Portfolio</title>
 </head>
 
@@ -34,8 +33,9 @@
         </div>
         <div class="project">
             <h3>Projet 2</h3>
-            <!-- This should display the 3D model -->
-            <model-viewer src="ex2.glb" alt="3D Model" auto-rotate camera-controls style="width: 100%; height: 500px;"></model-viewer>
+            <video width="500px " controls autoplay muted loop>
+                <source src="tp2.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="project">
             <h3>Projet 3</h3>
@@ -51,6 +51,8 @@
     <footer>
         <p>&copy; 2024 Mon Portfolio</p>
     </footer>
+
 </body>
+
 
 </html>
